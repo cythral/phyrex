@@ -1,0 +1,20 @@
+{
+	"name" : "cythral/phyrex",
+	"type" : "library",
+	"description" : "A simple templating library.",
+	"license" : "GPL-3.0",
+	"author" : {
+		"name" : "cythral",
+		"email" : "talen@cythral.com"
+	},
+
+	"require" : {
+		"php" : ">=7.0"
+	},
+
+	"autoload" : {
+		"psr-4" : {
+			"phyrex\\" : "src/"
+		}
+	}
+}
